@@ -44,6 +44,7 @@
     #questionBox {
         width: 100%;
         height: 50px;
+        padding: 10px;
         /* background-color: #D3D1D3; */
     }
 
@@ -71,9 +72,18 @@
         background-color:#5EB9DA;
         color: white;
     }
+a {
+    color: white;
+}
+    a:hover{
+        color: white;
+    }
 
     .form-box{
         text-align: center;
+    }
+    .nav-link {
+        color: #9D9EA1; 
     }
 
      .nav-item {
@@ -87,16 +97,19 @@
     }
 
     .navbar-brand {
-        color: #ED645F;
+        color: #5EB9DA;
         font-family: 'Raleway', sans-serif;
         font-weight: 900;
         font-size:34px;
     }
 
+    .navbar-brand:hover {
+        color: #ED645F;
+    }
+
     .hamburger {
     background-color: grey;
     }
-
 
         #questionBoxSecond {
             margin-bottom: 30px;
@@ -112,22 +125,8 @@
             height: auto;
         }
 
-        #cardRed {
-            color:white;
-            background-color: #ED645F;
-            padding: 15px;
-            border-radius: 3px;
-            height: auto;
-        }
 
-        #cardBlue {
-            color: white;
-            background-color:#5EB9DA;
-            padding: 15px;
-            border-radius: 3px;
-        }
-
-        #cardBlack {
+        .cardBlack {
             color: white;
             background-color: #3B3C40;
             padding: 15px;
@@ -135,7 +134,7 @@
         }
 
 
-        #submitQuestionsButton {
+        #submitQuestionsButton, #searchAgainButton, #notSeeingYourQuestionButton{
             margin-top: 15px;
             font-family: 'Open Sans', sans-serif;
             letter-spacing: .5px;
@@ -144,6 +143,30 @@
             border-radius: 0;
             color: white;
             background-color: #9D9EA1;
+            border-radius: 2px;
+        }
+
+        #searchAgainButton, #notSeeingYourQuestionButton {
+            margin-top: 15px;
+            font-family: 'Open Sans', sans-serif;
+            letter-spacing: .5px;
+            font-size: 15px;
+            border:0;
+            border-radius: 0;
+            color: white;
+            background-color: #ED645F;
+            border-radius: 2px;
+        }
+
+        #searchAgainButton:hover, #notSeeingYourQuestionButton:hover {
+            margin-top: 15px;
+            font-family: 'Open Sans', sans-serif;
+            letter-spacing: .5px;
+            font-size: 15px;
+            border:0;
+            border-radius: 0;
+            color: white;
+            background-color: #5EB9DA;
             border-radius: 2px;
         }
 
@@ -169,4 +192,8 @@
             color: #3B3C40;
             height: 1px;
 
+        }
+
+        placeholder {
+            text-align: center;
         }

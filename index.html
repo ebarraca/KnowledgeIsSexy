@@ -16,7 +16,7 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Raleway:300,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Raleway:300,900" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -27,7 +27,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">KIS</a>
+      <a class="navbar-brand" href="index.html">KIS</a>
       <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> -->
         <!-- <span class="navbar-toggler-icon"></span> -->
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -40,19 +40,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="nav navbar-nav navbar-right">
           <li class="nav-item active">
-            <a class="nav-link" href="#">#ASKQUESTIONS <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="askquestions.html">#ASKQUESTIONS <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">POPULAR QUESTIONS</a>
+            <a class="nav-link" href="/popularquestions.html">POPULAR QUESTIONS</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">CONTRIBUTE</a>
           </li>
           <li class="nav-item">
             <a class="nav-link disabled" href="#">RESOURCES</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">PROFILE</a>
           </li>
         </ul>
       </div>
@@ -71,8 +68,8 @@
                 <p class="askQuestion"> Ask any sex or sexual health questions here.</p>
                 <div class="form-box">
                     <form action="/" method="POST">
-                        <textarea type="text" id="questionBox" placeholder="First name"></textarea> <br>
-                        <button type="button" class="btn btn-outline-secondary" id="submitButton">SUBMIT</button>
+                        <textarea type="text" id="questionBox" placeholder="#AskQuestions"></textarea> <br>
+                        <button type="button" class="btn btn-outline-secondary" id="submitButton"><a href ="askquestions.html">SUBMIT</a></button>
                     </form>
                 </div>
             </div>
