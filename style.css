@@ -83,7 +83,7 @@ a {
         text-align: center;
     }
     .nav-link {
-        color: #9D9EA1; 
+        color: #9D9EA1;
     }
 
      .nav-item {
@@ -111,89 +111,135 @@ a {
     background-color: grey;
     }
 
-        #questionBoxSecond {
-            margin-bottom: 30px;
-            width: 100%;
-            height: 50px;
-        }
-        .card {
-            margin-bottom: 15px;
-            font-family: 'Open Sans', sans-serif;
-            font-size: 14px;
-            background-color: #8CCEE4;
-            max-width: 100%;
-            height: auto;
-        }
+    #questionBoxSecond {
+    margin-bottom: 30px;
+    width: 100%;
+    height: 50px;
+    }
+
+    .card {
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background-color: #8CCEE4;
+    max-width: 100%;
+    height: auto;
+    }
 
 
-        .cardBlack {
-            color: white;
-            background-color: #3B3C40;
-            padding: 15px;
-            border-radius: 3px;
-        }
+    .cardBlack {
+        color: white;
+        background-color: #3B3C40;
+        padding: 15px;
+        border-radius: 3px;
+    }
 
 
-        #submitQuestionsButton, #searchAgainButton, #notSeeingYourQuestionButton{
-            margin-top: 15px;
-            font-family: 'Open Sans', sans-serif;
-            letter-spacing: .5px;
-            font-size: 15px;
-            border:0;
-            border-radius: 0;
-            color: white;
-            background-color: #9D9EA1;
-            border-radius: 2px;
-        }
+    #submitQuestionsButton, #searchAgainButton, #notSeeingYourQuestionButton{
+        margin-top: 15px;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: .5px;
+        font-size: 15px;
+        border:0;
+        border-radius: 0;
+        color: white;
+        background-color: #9D9EA1;
+        border-radius: 2px;
+    }
 
-        #searchAgainButton, #notSeeingYourQuestionButton {
-            margin-top: 15px;
-            font-family: 'Open Sans', sans-serif;
-            letter-spacing: .5px;
-            font-size: 15px;
-            border:0;
-            border-radius: 0;
-            color: white;
-            background-color: #ED645F;
-            border-radius: 2px;
-        }
+    #searchAgainButton, #notSeeingYourQuestionButton {
+        margin-top: 15px;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: .5px;
+        font-size: 15px;
+        border:0;
+        border-radius: 0;
+        color: white;
+        background-color: #ED645F;
+        border-radius: 2px;
+    }
 
-        #searchAgainButton:hover, #notSeeingYourQuestionButton:hover {
-            margin-top: 15px;
-            font-family: 'Open Sans', sans-serif;
-            letter-spacing: .5px;
-            font-size: 15px;
-            border:0;
-            border-radius: 0;
-            color: white;
-            background-color: #5EB9DA;
-            border-radius: 2px;
-        }
+    #searchAgainButton:hover, #notSeeingYourQuestionButton:hover {
+        margin-top: 15px;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: .5px;
+        font-size: 15px;
+        border:0;
+        border-radius: 0;
+        color: white;
+        background-color: #5EB9DA;
+        border-radius: 2px;
+    }
 
-        #submitQuestionsButton:hover {
-            background-color:#5EB9DA;
-            color: white;
-        }
+    #submitQuestionsButton:hover {
+        background-color:#5EB9DA;
+        color: white;
+    }
 
-        #cardQuestion {
-            background-color: #9D9EA1;
-            color: white;
-            margin-bottom: 35px;
-            font-family: 'Open Sans', sans-serif;
-            font-size: 14px;
-            width: 100%;
-            height: 50px;
-            padding: 15px;
-            border-radius: 2px;
-            font-weight: 700;
-        }
+    #cardQuestion {
+        background-color: #9D9EA1;
+        color: white;
+        margin-bottom: 35px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        width: 100%;
+        height: 50px;
+        padding: 15px;
+        border-radius: 2px;
+        font-weight: 700;
+    }
 
-        .blackRule {
-            color: #3B3C40;
-            height: 1px;
+    .blackRule {
+        color: #3B3C40;
+        height: 1px;
 
-        }
+    }
 
-        placeholder {
-            text-align: center;
-        }
+    placeholder {
+        text-align: center;
+    }
+
+    .card-img-top {
+        float:left;
+        width: 100px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        border-radius: 3px;
+        vertical-align: center;
+        margin-top: 0;
+    }
+
+    .card {
+        padding: 20px;
+        text-align: center;
+        background-color: #3B3C40;
+        color: white;
+        border-radius: 3px;
+        margin-bottom: 20px;
+        height: 140px;
+    }
+
+    .card-title {
+        font-size: 18px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 900;
+        letter-spacing: 1px;
+        color: #ED645F;
+    }
+
+    h3 {
+        color: #5EB9DA;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        font-size:34px;
+    }
+
+    .card-text {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .5px;
+    }
+
+    .aboutText {
+        color: #9D9EA1;
+
+    }
